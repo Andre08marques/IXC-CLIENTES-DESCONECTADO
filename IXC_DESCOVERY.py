@@ -12,7 +12,7 @@ header = {
     'User-Agent': '*',
     'Accept': '*'
 }
-r = requests.post('http://168.228.163.28/teste/login_off.php', headers=header)
+r = requests.post('http://ipdoservidor/teste/login_off.php', headers=header)
 dados = (r.json()['registros'])
 
 
